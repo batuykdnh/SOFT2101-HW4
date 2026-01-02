@@ -1,6 +1,8 @@
-\# SOFT2101 Homework 4
+\# Homework 4 Repository
 
-Bu proje ödevi için oluşturulmuştur.
+This repository contains the coursework for SOFT2101.
 
-\[Işık Üniversitesi Yazılım Mühendisliği](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+
+\[Department of Software Engineering](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
 
