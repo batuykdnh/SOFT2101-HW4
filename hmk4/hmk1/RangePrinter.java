@@ -12,7 +12,9 @@ public class RangePrinter {
 
         // Prints numbers strictly between inputs
         for (int i = start + 1; i < end; i++) {
-             System.out.print(i + " ");
+if (i % 2 == 0) {
+    System.out.print(i + " ");
+}
         }
     }
 }
