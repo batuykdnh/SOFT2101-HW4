@@ -1,0 +1,133 @@
+Step A:
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=Batu Yekdaneh
+user.email=93440437+batuykdnh@users.noreply.github.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+
+Step B:
+total 2
+drwxr-xr-x 1 yeko 197608   0 Jan  2 23:13 ./
+drwxr-xr-x 1 yeko 197608   0 Jan  2 23:19 ../
+-rw-r--r-- 1 yeko 197608  45 Jan  2 23:11 .gitignore
+-rw-r--r-- 1 yeko 197608 283 Jan  2 23:10 README.md
+drwxr-xr-x 1 yeko 197608   0 Jan  2 23:15 hmk1/
+-rw-r--r-- 1 yeko 197608   0 Jan  2 23:04 homework4.txt
+
+Step F:
+
+commit c3e79188519d2ec1874b17b49e8b8c35bf8b295f (origin/feature-1, feature-1)
+Author: Batu Yekdaneh <93440437+batuykdnh@users.noreply.github.com>
+Date:   Fri Jan 2 23:13:35 2026 +0300
+
+    satisfying requirement one
+
+commit 3fc6e5752caf7cd4c62129218d1211771a6b5fe6
+Author: Batu Yekdaneh <93440437+batuykdnh@users.noreply.github.com>
+Date:   Fri Jan 2 23:12:26 2026 +0300
+
+    setting up gitignore
+
+commit 0f7305fe72ef82ed39d33dab12ee5e329fe5f11a
+Author: Batu Yekdaneh <93440437+batuykdnh@users.noreply.github.com>
+Date:   Fri Jan 2 23:10:29 2026 +0300
+
+    Updated README with department link
+
+commit 388e3d97826308b8670b6bc15047f18af769d912
+Author: Batu Yekdaneh <93440437+batuykdnh@users.noreply.github.com>
+Date:   Fri Jan 2 23:08:00 2026 +0300
+
+    Initial commit with README
+
+hmk1:
+RangePrinter.java
+
+STEP J:
+commit c1841cf08bc4378e4b2c13ef44ce3fb8da282e7b (origin/feature-2, feature-2)
+Author: Batu Yekdaneh <93440437+batuykdnh@users.noreply.github.com>
+Date:   Fri Jan 2 23:14:42 2026 +0300
+
+    satisfying requirement change two
+
+commit c3e79188519d2ec1874b17b49e8b8c35bf8b295f (origin/feature-1, feature-1)
+Author: Batu Yekdaneh <93440437+batuykdnh@users.noreply.github.com>
+Date:   Fri Jan 2 23:13:35 2026 +0300
+
+    satisfying requirement one
+
+commit 3fc6e5752caf7cd4c62129218d1211771a6b5fe6
+Author: Batu Yekdaneh <93440437+batuykdnh@users.noreply.github.com>
+Date:   Fri Jan 2 23:12:26 2026 +0300
+
+    setting up gitignore
+
+commit 0f7305fe72ef82ed39d33dab12ee5e329fe5f11a
+Author: Batu Yekdaneh <93440437+batuykdnh@users.noreply.github.com>
+Date:   Fri Jan 2 23:10:29 2026 +0300
+
+    Updated README with department link
+
+Step M:
+
+Main and Feature-1 Diff:
+
+diff --git a/hmk4/hmk1/RangePrinter.java b/hmk4/hmk1/RangePrinter.java
+index a966a49..a364a00 100644
+--- a/hmk4/hmk1/RangePrinter.java
++++ b/hmk4/hmk1/RangePrinter.java
+@@ -12,9 +12,7 @@ public class RangePrinter {
+
+         // Prints numbers strictly between inputs
+         for (int i = start + 1; i < end; i++) {
+-if (i % 2 == 0) {
+-    System.out.print(i + " ");
+-}
++             System.out.print(i + " ");
+         }
+     }
+ }
+\ No newline at end of file
+
+Main and Feature-2 Diff:
+
+diff --git a/hmk4/hmk1/RangePrinter.java b/hmk4/hmk1/RangePrinter.java
+index a966a49..b17a0c0 100644
+--- a/hmk4/hmk1/RangePrinter.java
++++ b/hmk4/hmk1/RangePrinter.java
+@@ -12,7 +12,7 @@ public class RangePrinter {
+
+         // Prints numbers strictly between inputs
+         for (int i = start + 1; i < end; i++) {
+-if (i % 2 == 0) {
++if (i % 2 != 0) {
+     System.out.print(i + " ");
+ }
+         }
+
+Main and Feature-3 Diff:
+
+No Output
+
+
+
+
+
